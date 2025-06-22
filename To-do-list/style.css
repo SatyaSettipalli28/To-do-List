@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
